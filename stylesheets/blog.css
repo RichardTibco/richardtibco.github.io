@@ -1,0 +1,29 @@
+.nav {
+	background:#aaa;
+	height:60px;
+ }
+.header .name{
+	float:left;
+	padding:10px;
+	color: #f2f2f2;
+	font-size: 28px;
+	font-weight: 700;
+}
+ ul {
+	margin:0;
+	list-style:none;
+
+ }
+ 
+ ul li{
+	float:right;
+	line-height:60px;
+ }
+
+ ul li a{
+	text-decoration:none;
+	height:inherit;
+	line-height:inherit;
+	padding-right:20px;
+	color: #f2f2f2;
+ }
