@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="gb2312">
+	<title>Full Page</title>
+	<link rel="stylesheet" href="stylesheets/jquery.fullPage.css">
+	<style>
+
+		.section {text-align:center; font: 50px Gotham,"Microsoft Yahei",sans-serif; color: #fff;}
+
+	</style>
+	<script src="javascripts/jquery-1.11.2.js"></script>
+	<script src="javascripts/jquery-ui.min.js"></script>
+	<script src="javascripts/jquery.fullPage.min.js"></script>
+	<script>
+		
+
+		$(document).ready(function() {
+
+			$.fn.fullpage({
+
+				slidesColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', '#f90'],
+
+				anchors: ['page1', 'page2', 'page3', 'page4'],
+				
+				navigation:true
+
+			});
+
+		});
+
+	</script>
+</head>
+<body>
+<div class="section" data-anchor="page1" style="height: 475px; background-color: rgb(27, 188, 155);background-image:url('images/pic1.jpg');background-size:100% 100%;">
+		<h3>Set your website apart</h3>
+		<p>Create a beautiful website.</p>
+</div>
+<div class="section" data-anchor="page2" style="height: 475px; background-color: rgb(75, 191, 195);background-image:url('images/pic2.jpg');background-size:100% 100%;">
+	<h3>PERFECT WEBSITES</h3>
+		<p>Whether you need simple pages, striking galleries, a professional blog, or an online store, it's all included with your Squarespace website. Best of all, everything is mobile-ready right from the start.</p>
+</div>
+<div class="section" data-anchor="page3" style="height: 475px; background-color: rgb(123, 170, 190);background-image:url('images/pic3.jpg');background-size:100% 100%;">
+<h3>OVER 1,000,000 PAYING CUSTOMERS</h3>
+		<p>Squarespace powers millions of websites across hundreds of industries for people just like you.</p>
+</div>
+<div class="section" data-anchor="page4" style="height: 475px; background-color: rgb(255, 153, 0);background-image:url('images/pic4.jpg');background-size:100% 100%;">
+<h3>AWARD-WINNING 24/7 CUSTOMER SERVICE</h3>
+		<p>Everyone on our Customer Care team is an experienced Squarespace user and works in our office. Nothing is ever outsourced.</p>
+</div>	
+</body>
+</html>
